@@ -1,0 +1,288 @@
+@CHARSET "UTF-8";
+body,h1,h2,h3,p,form,ul,li,dl,dt,dd{
+	padding:0;
+	margin:0;
+}
+body{
+	width:100%;
+	font-size:14px;
+}
+ul{
+	list-style-type:none;
+}
+a{
+	text-decoration:none;	
+}
+a:hover{
+	text-decoration:underline;
+}
+h2{
+	font-size:14px;
+	height:26px;
+	line-height:26px;
+	text-indent:10px;
+	letter-spacing:1px;
+	background:url(../images/lbg.png);
+	color:#360;
+}
+
+
+
+
+
+
+
+#top{
+	background:url(../images/admin_top_bg.gif);
+}
+#top h1{
+	width:150px;
+	height:80px;
+	font-size:12px;
+	background:url(../images/logosmall.png) no-repeat;
+	text-indent:-9999px;
+	float:left;
+}
+#top ul{
+	padding:47px 0 0 0;
+	float:left;
+}
+#top li{
+	padding:0 0 0 20px;
+	float:left;
+}
+#top li a{
+	display:block;
+	width:58px;
+	height:33px;
+	line-height:33px;
+	text-align:center;
+	background:url(../images/li_bg.png) repeat-y left bottom;
+	font-weight:blod;
+	color:#fff;
+}
+#top li a.selected{
+	background-position:right bottom;
+	color:#3b6ea5;
+}
+#top p a{
+	color:#fff;
+}
+#top p{
+	float:right;
+	padding:35px 20px 0 0;
+	color:#fff;
+}
+
+
+
+
+#sidebar{
+	background:#f7fbfc url(../images/sidebar_right.png) repeat-y right;
+}
+#sidebar dl{
+	padding:20px;
+}
+#sidebar dl dt{
+	border-bottom:1px solid #ccc;
+	padding:5px 0;
+	margin:5px 0;
+}
+#sidebar dl dd{
+	padding:5px 0;
+	margin:5px 0;
+	height:22px;
+	line-height:22px;
+}
+#sidebar dl dd a{
+	color:#3b6ea5;
+	font-weight:bold;
+	
+}
+
+
+
+
+#main{
+	background:#fff;
+}
+#main table.tb{
+	width:95%;
+	margin:20px auto;
+	text-align:center;
+}
+#main table.content td{
+	text-align:left;
+	padding-left:5px;
+}
+#main table.content td input.text{
+	width:440px;
+}
+#main table.content td input.small{
+	width:100px;
+}
+#main table.content td select{
+	width:150px;
+	heigth:22px;
+}
+#main table.content td span.red{
+	color:red;
+}
+#main table.content td select optgroup{
+	font-style:normal;
+}
+#main table.content td textarea{
+	margin:0;
+	width:440px;
+	height:100px;
+	overflow:hidden;
+	vertical-align:top;
+}
+#main table.left{
+	text-align:left;
+}
+#main table.tb tr{
+	background:#fff;
+}
+#main table.tb tr:hover{
+	background:#ffffcc;
+}
+#main table.tb th,#main table td{
+	height:30px;
+	line-height:30px;
+	color:#333;
+}
+#main table.tb th{
+	background:#eef3f7;
+	border-bottom:1px solid #d5dfe8;
+	font-weight:normal;
+}
+#main table.tb td{
+	border-bottom:1px solid #eee;
+}
+#main a{
+	color:#3b6ea5;
+}
+#main p.center{
+	text-align:center;
+}
+#main .map strong{
+	color:green;
+}
+#main form input.text{
+	width:220px;
+	height:19px;
+	background:#fff;
+	border:1px solid #ccc;
+}
+#main form input.sort{
+	width:40px;
+	text-align:center;
+}
+#main form select{
+	width:100px;
+	height:30px;
+	background:#fff;
+}
+#main form textarea{
+	width:220px;
+	height:100px;
+	font-size:13px;
+	background:#fff;
+	border:1px solid #ccc;
+}
+#main form input.submit{
+	cursor:pointer;
+	margin:0 0 0 80px;
+}
+#main form tr td span{
+	vertical-align:top;
+}
+#main ul{
+	padding:10px 0 0 47px;
+	height:28px;
+}
+#main ul li{
+	float:left;
+	padding:0 10px 0 0;
+}
+#main ul li a{
+	display:block;
+	padding:5px;
+}
+#main ul li a.selected{
+	background:#3b6ea5;
+	color:#fff;
+}
+
+#adminLogin{
+	width:350px;
+	margin:100px auto;
+	color:#666;
+	font-size:14px;
+}
+#adminLogin fieldset{
+	padding:20px;
+}
+#adminLogin legend{
+	font-size:16px;
+	font-weight:bold;
+}
+#adminLogin label{
+	display:block;
+	margin:5px;
+}
+#adminLogin label.t{
+	color:#999;
+	text-indent:56px;
+}
+#adminLogin label img{
+	cursor:pointer;
+	margin:0 0 0 56px;
+}
+#adminLogin input.submit{
+	cursor:pointer;
+	margin:0 0 0 56px;
+}
+#adminLogin label input.text{
+	width:220px;
+	height:27px;
+	border:1px solid #666;
+	background:#eee;
+}
+
+#page{
+	text-align:center;
+	padding:10px;
+}
+#page a{
+	border:1px solid #666;
+	padding:2px 5px;
+	margin:0 2px;
+}
+#page a:hover{
+	color:#fff;
+	border:1px solid #666;
+	background:#666;
+}
+#page span.disable{
+	padding:2px 5px;
+	margin:0 2px;
+	color:#ccc;
+	border:1px solid #ccc;
+}
+#page span.me{
+	padding:2px 5px;
+	margin:0 2px;
+	color:#fff;
+	border:1px solid #666;
+	background:#666;
+}
+#page select.select{
+	width:120px;
+	background:#fff;
+	border:1px solid #ccc;
+}
+#page select.select optgroup{
+	font-style:normal;
+}

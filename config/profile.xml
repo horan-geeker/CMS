@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<taglib>
+		<name>webname</name>
+		<value>马可木屋</value>
+	</taglib>
+	
+	<taglib>
+		<name>pagesize</name>
+		<value>10</value>
+	</taglib>
+</root>

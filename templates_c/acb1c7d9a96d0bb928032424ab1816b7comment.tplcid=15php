@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <link rel="stylesheet" type="text/css" href="style/basic.css" />
+    <link rel="stylesheet" type="text/css" href="style/comment.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title><?php echo $this->_config['webname']?></title>
+    <script type="text/javascript" src="config/static.php?id=<?php echo $this->_vars['id'];?>&type=detail"></script>
+</head>
+<body>
+<?php $_tpl->create('header.tpl')?>
+<div id="comment">
+    <h2>评论列表</h2>
+    <?php if($this->_vars['AllComment']){?>
+    <?php foreach($this->_vars['AllComment'] as $key=>$value){?>
+    <dl>
+        <dt><img src="images/<?php echo $value->face;?>" alt="游客"/></dt>
+        <dd><em><?php echo $value->date;?> 发表</em> <span>[<?php echo $value->user;?>]</span></dd>
+        <dd class="info">【<?php echo $value->manner;?>】<?php echo $value->content;?></dd>
+        <dd class="button"><a href="#">[0]支持</a> <a href="#"> [0]反对</a></dd>
+    </dl>
+    <?php }?>
+    <?php }else{?>
+        <dl>
+            <dd>此文档没有任何评论</dd>
+        </dl>
+    <?php }?>
+    <div id="page"><?php echo $this->_vars['page'];?></div>
+</div>
+<div id="sidebar">
+    <h2>热评文档</h2>
+    <ul class="list-info">
+        <li><span>06-12</span><a href="#">习近平签署第四十三号主席令</a></li>
+        <li><span>04-30</span><a href="#">李克强答问结束 记者:加油</a></li>
+        <li><span>07-22</span><a href="#">印尼警方击毙两名中国籍武装分子</a></li>
+        <li><span>02-11</span><a href="#">广东落马领导庭审自辩:女儿收钱坑爹</a></li>
+        <li><span>03-07</span><a href="#">李肇星在印度出席会议因"台独"问题离席</a></li>
+        <li><span>03-12</span><a href="#">目击者回应"女子被骂中国猪"</a></li>
+        <li><span>01-01</span><a href="#">上海两千人为阿迪达斯新鞋连夜排队</a></li>
+    </ul>
+</div>
+<?php $_tpl->create('footer.tpl')?>
+
+</body>
+</html>
+
+
+

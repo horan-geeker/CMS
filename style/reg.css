@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+#reg{
+	width:100%;
+	float:left;
+	margin:0 0 10px 0;
+}
+#reg h2{
+	text-align:center;
+	border:1px solid #ccc;
+	border-bottom:none;
+}
+#reg h2 a{
+	color:#360;
+}
+#reg h2 a:hover{
+	color:#f60;
+}
+#reg form{
+	padding:15px 0;
+	border:1px solid #ccc;
+}
+#reg form dl{
+	padding:0 0 0 35%;
+}
+#reg form dl dd input.text,#reg form dl dd select{
+	width:220px;
+	height:22px;
+	border:1px solid #999;
+	background:#eee;
+	margin:5px;
+}
+#reg form dl dd span.red{
+	color:red;
+}
+#reg form dl dd img.code{
+	cursor:pointer;
+	margin:0 0 0 100px;
+}
+#reg form dl dd input.submit{
+	cursor:pointer;
+	margin:0 0 0 260px;
+}

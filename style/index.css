@@ -1,0 +1,482 @@
+@CHARSET "UTF-8";
+#header{
+	height:80px;
+	margin:0 0 10px 0;
+}
+#header h1{
+	width:250px;
+	height:80px;
+	background:url(../images/logo.png);
+	float:left;
+}
+#header h1 a{
+	width:250px;
+	height:80px;
+	display:block;
+	text-indent:-9999px;
+}
+#header div.adver{
+	height:80px;
+	width:70%;
+	float:right;
+	border:1px solid #ccc;
+}
+#header div.adver img{
+	height:100%;
+	width:100%;
+	display:block;
+}
+
+
+
+
+#nav{
+	height:35px;
+	background:url(../images/nav_bg.png);
+	border:1px solid #ccc;
+	border-bottom:none;
+}
+#nav ul{
+	height:35px;
+	line-height:35px;
+	font-size:15px;
+	font-weight:bold;
+	padding:0 0 0 20px;
+}
+#nav li{
+	display:inline;
+	padding:0 1em;
+}
+#nav li a{
+	color:#369;
+	text-decoration:none;
+}
+#nav li a:hover{
+	color:#f60;
+}
+
+
+
+
+#search{
+	height:30px;
+	margin:0 0 10px 0;
+	border:1px solid #ccc;
+	border-top:none;
+	padding:5px 0 0 5px;
+}
+#search form{
+	float:left;
+}
+#search form select{
+	background:#fff;
+}
+#search form input.text{
+	width:200px;
+}
+#search strong{
+	float:left;
+	padding:3px 0 0 15px;
+}
+#search ul{
+	float:left;
+	padding:3px 0 0 0;
+}
+#search ul li{
+	float:left;
+	padding:0 10px 0 0;
+}
+#search ul li a{
+	color:green;
+	text-decoration:none;
+}
+#search ul li a:hover{
+	color:#f60;
+	text-decoration:underline;
+}
+
+
+
+
+#user{
+	width:29%;
+	height:420px;
+	float:right;
+	margin:0 0 10px 0;
+	border:1px solid #ccc;
+}
+#user form{
+	position:relative;
+}
+#user form label{
+	display:block;
+	padding:6px 0 5px 12px;
+}
+#user form label input.text{
+	width:180px;
+	height:20px;
+}
+#user form label input.code{
+	width:100px;
+}
+#user form img{
+	width:80px;
+	position:absolute;
+	top:100px;
+	left:185px;
+	cursor:pointer;
+}
+#user form p{
+	margin:0 0 0 70px;
+}
+#user form p a{
+	color:green;
+	text-decoration:none;
+}
+#user form p a:hover{
+	text-decoration:underline;
+	color:#f60
+}
+#user h3{
+	font-size:12px;
+	padding:10px 10px;
+	clear:both;
+}
+#user h3 span{
+	color:#ccc;
+}
+#user dl{
+	width:72px;
+	height:100px;
+	float:left;
+	margin:0 0 0 1em;
+}
+#user dl dt img{
+	display:block;
+}
+#user dl dd{
+	padding:5px;
+	font-size:12px;
+	text-align:center;
+	overflow:hidden;
+}
+#user div.welcome{
+	width:80%;
+	margin:10px auto;
+	border:1px solid #eee;
+	background:#fffffc;
+	height:22px;
+	line-height:22px;
+	text-align:center;
+	border-right:none;
+	border-left:none;
+}
+#user div.welcome strong{
+	color:orange;
+}
+#user div.userInfo{
+	width:70%;
+	margin:0 auto;
+	padding:15px 0 0 0;
+	height:85px;
+}
+#user div.userInfo img{
+	display:block;
+	float:left;
+}
+#user div.userInfo a{
+	display:block;
+	float:right;
+	width:100px;
+	padding:6px 0 0 0;
+	color:green;
+	letter-spacing:2px;
+}
+
+#news{
+	width:42.5%;
+	height:400px;
+	float:right;
+	margin:0 10px 10px 0;
+	border:1px solid #ccc;
+	padding:10px 20px 10px 10px;
+	overflow:hidden;
+}
+#news h3{
+	text-align:center;
+	margin:7px 0;
+}
+#news h3 a{
+	color:#333;
+}
+#news a:hover{
+	text-decoration:underline;
+}
+#news p{
+	color:#666;
+	line-height:150%;
+}
+#news p a{
+	color:#333;
+	
+}
+#news p a:hover{
+	text-decoration:underline;
+}
+#news p.link{
+	color:green;
+	padding:7px 0;
+	border-bottom:1px dashed #666; 
+}
+#news p.link a{
+	color:green;
+	display:inline-block;
+	padding:0 0 5px 0;
+}	
+#news ul{
+	
+	padding:7px 10px 0 0;
+}
+#news li{
+	padding:0 0 0 10px;
+	background:url(../images/pointer.png) no-repeat left center;
+}
+@media (min-width: 375px)and(max-device-width:667px)and(-webkit-min-device-pixel-ratio:2){
+	
+	/*iphone6*/
+	
+	#news{
+		width:41%;
+		padding:5px 20px 15px 10px;
+	}
+}
+
+
+
+#pic img{
+	width:24%;
+	height:205px;
+	float:left;
+	margin:0 0 10px 0;
+	display:block;
+	border:1px solid #ccc;
+}
+
+
+#rec{
+	width:24%;
+	height:205px;
+	float:left;
+	margin:0 0 10px 0;
+	border:1px solid #ccc;
+}
+#rec ul{
+	padding:2px 10px 0 10px;
+}
+
+
+
+
+#sidebar-right{
+	width:29%;
+	height:830px;
+	float:right;
+}
+#sidebar-right div.adver{
+	margin:0 0 5px 0;
+}
+#sidebar-right div.adver img{
+	width:100%;
+	height:200px;
+}
+#sidebar-right div.hot,#sidebar-right div.comm,#sidebar-right div.vote{
+	border:1px solid #ccc;
+	height:200px;
+	margin:0 0 10px 0;
+}
+#sidebar-right div.vote{
+	margin:0;
+}
+#sidebar-right div.vote h3{
+	padding:5px;
+	text-align:center;
+	font-size:14px;
+	color:#369;
+	border-bottom:1px dashed #ccc;
+	width:80%;
+	margin:5px auto;
+}
+#sidebar-right div.vote form label{
+	display:block;
+	padding:2px 0 2px 20px;
+}
+#sidebar-right div.vote p{
+	padding:5px;
+	text-align:center;
+}
+#sidebar-right div.vote form p input{
+	cursor:pointer;
+}
+
+#sidebar-right ul{
+	padding:2px 10px 0 10px;
+}
+#sidebar-right li{
+	height:27px;
+	line-height:27px;	
+}
+
+
+
+
+#picnews{
+	width:70%;
+	height:195px;
+	float:left;
+	margin:0 0 10px 0;
+	border:1px solid #ccc;
+}
+#picnews dl{
+	width:15em;
+	float:left;
+	margin:8px 0 0 12px;
+}
+#picnews dl dt{
+	border:1px solid #999;
+	padding:2px;
+}
+#picnews dl dt img{
+	width:14.5em;
+	height:8em;
+}
+#picnews dl dd{
+	padding:5px;
+	text-align:center;
+}
+#picnews dl dd a{
+	color:#666
+}
+#picnews dl dd a:hover{
+	text-decoration:underline;
+}
+#picnews dl dt img{
+	display:block;
+}
+@media (min-width: 375px)and(max-device-width:667px)and(-webkit-min-device-pixel-ratio:2){
+	
+	/*iphone6*/
+	
+	#picnews dl{
+		width:11.1em;
+		float:left;
+		margin:5px 0 0 5px;
+	}
+	#picnews dl dt img{
+		width:10.7em;
+		height:8em;
+	}
+}
+
+
+#newslist{
+	float:left;
+	width:70%;
+	height:625px;
+	
+}
+#newslist div.list{
+	width:49%;
+	height:306px;
+	border:1px solid #ccc;
+	float:left;
+}
+#newslist div.list h2 a{
+	float:right;
+	padding:0 10px 0 0;
+}
+#newslist div.list h2 a:hover{
+	color:green;
+	text-decoration:underline;
+}
+#newslist div.top{
+	margin:0 0 10px 0;
+}
+#newslist div.right{
+	float:right;
+}
+#newslist li{
+	padding:0 0 0 10px;
+	background:url(../images/arrow.png) no-repeat left center;
+}
+
+
+
+
+#link{
+	width:100%;
+	height:10em;
+	float:left;
+	margin:10px 0 10px 0;
+}
+#link h2 span{
+	float:right;
+	padding:0 10px 0 0;
+}
+#link h2 span a{
+	color:#360;
+}
+#link h2 span a:hover{
+	color:#f60;
+}
+#link ul{
+	padding:10px 0 1em 0;
+	border-bottom:1px dashed #999;
+	width:98%;
+	margin:0 auto;
+}
+#link li{
+	display:inline;
+	padding:0 0 0 4em;
+}
+#link li a{
+	color:#666;
+}
+#link dl{
+	padding:10px 0 0 0;
+}
+#link dl dd{
+	padding:0 5px 0 3em;
+	float:left;
+}
+#link dl dd img{
+	display:block;
+}
+@media (min-width: 375px)and(max-device-width:667px)and(-webkit-min-device-pixel-ratio:2){
+	
+	/*iphone6*/
+	
+	#link li{
+		display:inline;
+		padding:0 0 0 1.5em;
+	}
+	#link dl dd{
+		padding:0 5px 0 0.5em;
+		float:left;
+	}
+}
+
+#footer{
+	width:100%;
+	height:40px;
+	float:left;
+}
+#footer p{
+	text-align:center;
+	line-height:150%;
+	font-family:Tahoma;
+	color:#333;
+}
+#footer p span{
+	color:#06f;
+} 
+

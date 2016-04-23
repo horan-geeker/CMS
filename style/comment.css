@@ -1,0 +1,124 @@
+@CHARSET "UTF-8";
+#comment{
+	width:64%;
+	min-height:600px;
+	float:left;
+	margin:0 0 10px 0;
+}
+#comment dl{
+	padding:10px;
+	width:100%;
+	margin:0 auto;
+	border-bottom:1px solid #ccc;
+	float: left;
+}
+#comment dl dt{
+	float: left;
+}
+#comment dl dd{
+	margin:5px;
+	width:85%;
+	float: left;
+	padding-left:10px;
+}
+#comment dl dd em{
+	float: right;
+	font-style:normal;
+}
+#comment dl dd.info{
+	font-size:16px;
+	line-height:150%;
+}
+#comment dl dd span{
+	color:#06f;
+}
+#comment h2{
+	border:1px solid #ccc;
+	border-bottom:none;
+}
+#comment h2 a{
+	color:#360;
+}
+#comment h2 a:hover{
+	color:#f60;
+}
+#comment h3{
+	text-align:center;
+	color:#333;
+	padding:20px 0 0 0;
+	font-size:22px;
+}
+p.attitude{
+	margin:10px 0;
+	padding:8px;
+}
+div.comment p textarea{
+	width:650px;
+	height:150px;
+	background:#fff;
+	border:1px dashed #999;
+}
+div.comment p img.imgcode{
+	width: 80px;
+	top:10px;
+	cursor:pointer;
+	position:relative;
+}
+div.comment input.code{
+	width:80px;
+	margin:10px;
+}
+div.comment p.red{
+	color:red;
+}
+div.comment{
+	margin:10px 0 0 0;
+	clear:both;
+}
+div.comment h2{
+	width:65%;
+}
+div.comment h2 a{
+	float: right;
+	font-weight:normal;
+	padding-right: 10px;
+	color: #666;
+}
+div.comment h2 a span{
+	color: red;
+}
+@media (min-width: 375px)and(max-device-width:667px)and(-webkit-min-device-pixel-ratio:2){
+	
+	/*iphone6*/
+	#comment dl{
+		height:150px;
+		padding:0;
+	}
+	#comment dl dt{
+		width:25%;
+	}
+	#comment dl dd{
+		width:70%;
+		margin:0 0 0 1em;
+	}
+}
+
+
+
+#sidebar{
+	width:35%;
+	min-height:200px;
+	float:right;
+	margin:0 0 10px 0;
+	border:1px solid #ccc;
+}
+#sidebar div{
+	width:100%;
+	height:205px;
+	float:left;
+	margin:0 0 10px 0;
+	border:1px solid #ccc;
+}
+#sidebar div ul{
+	padding:2px 10px 0 10px;
+}
