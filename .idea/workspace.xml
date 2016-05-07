@@ -2,69 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82981b62-2e91-47fa-88f1-968709f8e623" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/upfile.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/00e89d929b030dd1a2f56a37e829b5e4admin_login.tplaction=loginphp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/0fc86695c0bbb8b70ab6c969eced14accomment.tplaction=show&amp;cid=php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/110297e50d1c4ba51b1c32f14182065dlist.tplid=9php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/123029c22065f32d9bdb78a1e15ad96flevel.tplaction=addphp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/1403d36d7746586011e4466a88c96e6edetail.tplid=14php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/208f22ff63c44d1fb499f5be54204e34comment.tplaction=show&amp;cid=16php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/3355204ad025096c3225f3e3356403dduser.tplaction=update&amp;id=11php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/352f5bf0efd71a000c6dd750354b699bcomment.tplaction=show&amp;cid=14&amp;page=1php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/3cff13ac7c0e5a6539eb54babad75149user.tplaction=update&amp;id=8php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/45e2a2b2b223e2c4e9ececa56aa5f0decontent.tplaction=update&amp;id=18php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/45fc741799ca9fd92da271c58bcc2c2dlist.tplid=1111php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/479dae772b37f3f09eaf5fedff54cc5flist.tplid=2php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/60bac372b305c9f19377e220b3a24716list.tplid=1php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/6aabbb809a7807632d62a19a7d29faf9user.tplaction=update&amp;id=10php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/7798e6dd6197d7c71bd4fe4b3a3f893ddetail.tplid=13php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/854c7c3cbe41d345148f4c0ed3d61989register.tplphp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/859202b6d14fe296d5279d9aa57b90c9comment.tplaction=show&amp;cid=14&amp;page=2php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/8b265d4587654e7db8aeb547f08eb99acomment.tplaction=show&amp;cid=15php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/8f8691e45f85d374c169957cea60cf06user.tplaction=update&amp;id=2php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/a23d5dad91982e639193ca795f66c96clist.tplid=23php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/a6ffd3f9375b2c35592c2c5b7de08f0clist.tplid=8php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/aa17f838b5d09ed34cc49995eebc88eeuser.tplaction=showphp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/acb1c7d9a96d0bb928032424ab1816b7comment.tplcid=15php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/b4787f95e12f8cd4ec88ed825e67890bregister.tplaction=logoutphp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/bb054d5fedfb8170ad57f1697ce243d0comment.tplcid=14php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/bc1efc3378a25897a48383983f246c45comment.tplaction=show&amp;cid=14php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/bcf9323ec77c04b85ed88c774f5ec243detail.tplid=18php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/c179a53aff0742c06fa63a9c67167358comment.tplcid=13&amp;action=commentphp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/c359920801e4bcac4fed2548c57f9244list.tplid=5php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/c9573ee4ad1d05e1aa8964cb5565255adetail.tplid=15php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/d4bd7f4ed627a11c6be73ee90eca0755detail.tplid=16php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/d87e8ac56b72a59cfa4f63264d5438e7list.tplid=11php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/e8abc6beac9a944289f565a19d68679cmanage.tplaction=addphp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/e93b99d3a2be1839ccd23a7c8649f629list.tplid=10php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/ee8287d464fc1fc93a448e98a666b796register.tplaction=regphp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/f07daa970881acb3f6bb9bc11c10eb5euser.tplaction=update&amp;id=12php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates_c/f3a89ac7712f280d2543382e09541b8dlist.tplid=4php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/head_adver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/siderbar_adver.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/action/CommentAction.class.php" afterPath="$PROJECT_DIR$/action/CommentAction.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/action/ContentAction.class.php" afterPath="$PROJECT_DIR$/action/ContentAction.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/action/DetailAction.class.php" afterPath="$PROJECT_DIR$/action/DetailAction.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/action/IndexAction.class.php" afterPath="$PROJECT_DIR$/action/IndexAction.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/action/ListAction.class.php" afterPath="$PROJECT_DIR$/action/ListAction.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/Cache.class.php" afterPath="$PROJECT_DIR$/includes/Cache.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/Parser.class.php" afterPath="$PROJECT_DIR$/includes/Parser.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/Tool.class.php" afterPath="$PROJECT_DIR$/includes/Tool.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/admin_manage.js" afterPath="$PROJECT_DIR$/js/admin_manage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/CommentModel.class.php" afterPath="$PROJECT_DIR$/model/CommentModel.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/ContentModel.class.php" afterPath="$PROJECT_DIR$/model/ContentModel.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/NavModel.class.php" afterPath="$PROJECT_DIR$/model/NavModel.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/admin.css" afterPath="$PROJECT_DIR$/style/admin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/index.css" afterPath="$PROJECT_DIR$/style/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/comment.tpl" afterPath="$PROJECT_DIR$/templates/comment.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/content_manage.html" afterPath="$PROJECT_DIR$/templates/content_manage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/detail.tpl" afterPath="$PROJECT_DIR$/templates/detail.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/header.tpl" afterPath="$PROJECT_DIR$/templates/header.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.tpl" afterPath="$PROJECT_DIR$/templates/index.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/list.tpl" afterPath="$PROJECT_DIR$/templates/list.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates_c/1d7c7a527b6335cc7a623305ca940e1findex.tplphp" afterPath="$PROJECT_DIR$/templates_c/1d7c7a527b6335cc7a623305ca940e1findex.tplphp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates_c/21afa03d66c66f6cfa92a13731fda41flist.tplid=3php" afterPath="$PROJECT_DIR$/templates_c/21afa03d66c66f6cfa92a13731fda41flist.tplid=3php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates_c/8ac13ba05e7d71557325585ced27dc6clist.tplid=12php" afterPath="$PROJECT_DIR$/templates_c/8ac13ba05e7d71557325585ced27dc6clist.tplid=12php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates_c/c7b8169ee447ae1c4951b1036544bee6header.tpl" afterPath="$PROJECT_DIR$/templates_c/c7b8169ee447ae1c4951b1036544bee6header.tpl" />
     </list>
     <ignored path="CMS3.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,92 +36,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="commentManage.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/commentManage.tpl">
+      <file leaf-file-name="head_adver.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/head_adver.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="24" selection-end-column="101" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin_manage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/admin_manage.js">
+      <file leaf-file-name="siderbar_adver.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/siderbar_adver.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#37#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommentManageAction.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/action/CommentManageAction.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1911">
-              <caret line="91" column="50" selection-start-line="91" selection-start-column="50" selection-end-line="91" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bcastr.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bcastr.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1554">
-              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/header.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="text_adver.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="text_adver.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/text_adver.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommentManageModel.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/CommentManageModel.class.php">
+      <file leaf-file-name="index.tpl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/index.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-              <folding>
-                <marker date="1462106057423" expanded="true" signature="465:497" placeholder="SELECT COUNT... cms_comment" />
-                <marker date="1462106057423" expanded="true" signature="611:717" placeholder="SELECT * FRO... cms_comment" />
-                <marker date="1462106057423" expanded="true" signature="611:718" placeholder="SELECT c.*,c... " />
-                <marker date="1462106057423" expanded="true" signature="611:719" placeholder="SELECT * FRO... cms_comment" />
-                <marker date="1462106057423" expanded="true" signature="821:872" placeholder="UPDATE cms_c... " />
-                <marker date="1462106057423" expanded="true" signature="821:880" placeholder="UPDATE cms_c... " />
-                <marker date="1462106057423" expanded="true" signature="974:1033" placeholder="UPDATE cms_c... " />
-                <marker date="1462106057423" expanded="true" signature="1123:1167" placeholder="DELETE FROM " />
-                <marker date="1462106057423" expanded="true" signature="1123:1175" placeholder="DELETE FROM " />
-              </folding>
+            <state vertical-scroll-proportion="0.3962766">
+              <caret line="94" column="89" selection-start-line="94" selection-start-column="89" selection-end-line="94" selection-end-column="89" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -198,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/action/LoginAction.class.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/action/ManageAction.class.php" />
         <option value="$PROJECT_DIR$/admin/manage.php" />
@@ -245,9 +141,11 @@
         <option value="$PROJECT_DIR$/model/CommentManageModel.class.php" />
         <option value="$PROJECT_DIR$/action/CommentManageAction.class.php" />
         <option value="$PROJECT_DIR$/bcastr.xml" />
-        <option value="$PROJECT_DIR$/templates/index.tpl" />
         <option value="$PROJECT_DIR$/templates/header.tpl" />
         <option value="$PROJECT_DIR$/js/text_adver.js" />
+        <option value="$PROJECT_DIR$/js/head_adver.js" />
+        <option value="$PROJECT_DIR$/js/siderbar_adver.js" />
+        <option value="$PROJECT_DIR$/templates/index.tpl" />
       </list>
     </option>
   </component>
@@ -261,10 +159,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1378" />
-    <option name="height" value="744" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="2182" />
+    <option name="height" value="1402" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -291,63 +189,63 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CMS3.0" />
+              <option name="myItemId" value="CMS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CMS3.0" />
+              <option name="myItemId" value="CMS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CMS3.0" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="CMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CMS3.0" />
+              <option name="myItemId" value="CMS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CMS3.0" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="CMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CMS3.0" />
+              <option name="myItemId" value="CMS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CMS3.0" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="CMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="Configurable.PHP.Blade" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="D:/www/daren" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -426,14 +324,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
-      <node-interpreter value="project" />
       <envs />
       <force value="false" />
       <verbose value="false" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -444,7 +340,6 @@
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run-script" />
       <scripts />
-      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
@@ -457,9 +352,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -468,7 +361,6 @@
       <changelist id="82981b62-2e91-47fa-88f1-968709f8e623" name="Default" comment="" />
       <created>1460473264448</created>
       <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
       <updated>1460473264448</updated>
       <workItem from="1460473265627" duration="4012000" />
       <workItem from="1460538876345" duration="4473000" />
@@ -500,10 +392,10 @@
     <option name="totallyTimeSpent" value="84795000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="false" />
+    <frame x="-11" y="-11" width="2182" height="1402" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21659325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2162037" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3139183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -539,371 +431,369 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/detail.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/comment.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="78" column="12" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/action/RegisterAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
+        <state vertical-scroll-proportion="0.0">
           <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="45" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/static.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state vertical-scroll-proportion="0.0">
           <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/detail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/Cache.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state vertical-scroll-proportion="0.0">
           <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/detail.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-831">
+        <state vertical-scroll-proportion="0.0">
           <caret line="21" column="94" selection-start-line="21" selection-start-column="94" selection-end-line="21" selection-end-column="94" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/profile.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state vertical-scroll-proportion="0.0">
           <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
+        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/action/ContentAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1995">
+        <state vertical-scroll-proportion="0.0">
           <caret line="95" column="20" selection-start-line="95" selection-start-column="14" selection-end-line="95" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/action/DetailAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
+        <state vertical-scroll-proportion="0.0">
           <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="48" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/action/LevelAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
+        <state vertical-scroll-proportion="0.0">
           <caret line="4" column="8" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/action/ListAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
+        <state vertical-scroll-proportion="0.0">
           <caret line="54" column="52" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/comment.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state vertical-scroll-proportion="0.0">
           <caret line="24" column="108" selection-start-line="24" selection-start-column="108" selection-end-line="24" selection-end-column="108" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/FileUpload.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state vertical-scroll-proportion="0.0">
           <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/reg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-462">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates_c/nav.tpl" />
     <entry file="file://$PROJECT_DIR$/model/NavModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state vertical-scroll-proportion="0.0">
           <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/ContentModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
+        <state vertical-scroll-proportion="0.0">
           <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/Parser.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
+        <state vertical-scroll-proportion="0.0">
           <caret line="79" column="79" selection-start-line="79" selection-start-column="79" selection-end-line="79" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
+        <state vertical-scroll-proportion="0.0">
           <caret line="235" column="17" selection-start-line="235" selection-start-column="17" selection-end-line="235" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/action/IndexAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
+        <state vertical-scroll-proportion="0.0">
           <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/register.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state vertical-scroll-proportion="0.0">
           <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/top.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/upfile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state vertical-scroll-proportion="0.0">
           <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/user_manage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state vertical-scroll-proportion="0.0">
           <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/user.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
+        <state vertical-scroll-proportion="0.0">
           <caret line="67" column="108" selection-start-line="67" selection-start-column="108" selection-end-line="67" selection-end-column="108" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/main.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/list.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
+        <state vertical-scroll-proportion="0.0">
           <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/level.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/manage.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
+        <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/Tool.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
+        <state vertical-scroll-proportion="0.0">
           <caret line="108" column="27" selection-start-line="108" selection-start-column="27" selection-end-line="108" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/admin_nav.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/action/CommentAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state vertical-scroll-proportion="0.0">
           <caret line="68" column="47" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/CommentModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state vertical-scroll-proportion="0.0">
           <caret line="63" column="46" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/admin.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
+        <state vertical-scroll-proportion="0.0">
           <caret line="167" column="14" selection-start-line="167" selection-start-column="14" selection-end-line="167" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/nav.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state vertical-scroll-proportion="0.0">
           <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/content_manage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state vertical-scroll-proportion="0.0">
           <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/comment.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/admin_manage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/commentManage.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/CommentManageModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
+        <state vertical-scroll-proportion="0.0">
           <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-          <folding>
-            <marker date="1462106057423" expanded="true" signature="465:497" placeholder="SELECT COUNT... cms_comment" />
-            <marker date="1462106057423" expanded="true" signature="611:717" placeholder="SELECT * FRO... cms_comment" />
-            <marker date="1462106057423" expanded="true" signature="611:718" placeholder="SELECT c.*,c... " />
-            <marker date="1462106057423" expanded="true" signature="611:719" placeholder="SELECT * FRO... cms_comment" />
-            <marker date="1462106057423" expanded="true" signature="821:872" placeholder="UPDATE cms_c... " />
-            <marker date="1462106057423" expanded="true" signature="821:880" placeholder="UPDATE cms_c... " />
-            <marker date="1462106057423" expanded="true" signature="974:1033" placeholder="UPDATE cms_c... " />
-            <marker date="1462106057423" expanded="true" signature="1123:1167" placeholder="DELETE FROM " />
-            <marker date="1462106057423" expanded="true" signature="1123:1175" placeholder="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/action/CommentManageAction.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1911">
-          <caret line="91" column="50" selection-start-line="91" selection-start-column="50" selection-end-line="91" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bcastr.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
+        <state vertical-scroll-proportion="0.0">
           <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1554">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/header.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
+        <state vertical-scroll-proportion="0.3243243">
           <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/header3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/header1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/commentManage.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44178084">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/admin_manage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.035596028">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/action/CommentManageAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-91.375">
+          <caret line="85" column="29" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/text_adver.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/head_adver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="24" selection-end-column="101" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/siderbar_adver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#37#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3962766">
+          <caret line="94" column="89" selection-start-line="94" selection-start-column="89" selection-end-line="94" selection-end-column="89" />
           <folding />
         </state>
       </provider>
