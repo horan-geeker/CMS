@@ -7,19 +7,22 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title><!--{webname}--></title>
 
-    <script type="text/javascript" src="config/static.php?id={$id}&type=detail"></script>
+    <script type="text/javascript" src="config/static.php?id={$cid}&type=detail"></script>
 </head>
 <body>
 {include file="header.tpl"}
 <div id="comment">
     <h2>评论列表</h2>
+    <h3><a href="detail.php?id={$cid}">返回原文</a></h3>
+    <hr />
     {if $AllComment}
     {foreach $AllComment(key,value)}
     <dl>
         <dt><img src="images/{@value->face}" alt="游客"/></dt>
         <dd><em>{@value->date} 发表</em> <span>[{@value->user}]</span></dd>
         <dd class="info">【{@value->manner}】{@value->content}</dd>
-        <dd class="button"><a href="#">[0]支持</a> <a href="#"> [0]反对</a></dd>
+        <dd class="button"><a href="comment.php?action=attitude&cid={@value->cid}&id={@value->id}&type=sustain">[{@value->sustain}]支持</a>
+                           <a href="comment.php?action=attitude&cid={@value->cid}&id={@value->id}&type=oppose"> [{@value->oppose}]反对</a></dd>
     </dl>
     {/foreach}
     {else}
@@ -42,7 +45,7 @@
     </ul>
 </div>
 <div class="comment">
-    <h2><a href="comment.php?action=show&cid={$cid}" target="_blank">已有<span>220</span>人参与评论</a>最新评论</h2>
+    <h2><a href="comment.php?action=show&cid={$cid}" target="_blank">已有<span>{$commentCount}</span>人参与评论</a>最新评论</h2>
     <form method="post" action="comment.php?cid={$cid}&action=comment" name="comment">
         <p class="attitude">你对本文的看法:<input type="radio" name="manner" value="1" />支持
             <input type="radio" name="manner" value="0" />中立

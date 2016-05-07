@@ -1,8 +1,7 @@
 <script type="text/javascript" src="config/static.php?type=header"></script>
 <div id="top">
 	<?php echo $this->_vars['header'];?>
-	<a href="#" class="adv">这里可以放置文字广告1</a>
-	<a href="#" class="adv">这里可以放置文字广告2</a>
+	<script type="application/javascript" src="js/text_adver.js"></script>
 </div>
 <div id="header">
 	<h1><a href="###">hejunweimake</a></h1>

@@ -25,8 +25,9 @@ h2{
 	background:url(../images/lbg.png);
 	color:#360;
 }
-
-
+.red{
+	color:red;
+}
 
 
 
@@ -162,6 +163,9 @@ h2{
 }
 #main a{
 	color:#3b6ea5;
+}
+#main a.red{
+	color:red;
 }
 #main p.center{
 	text-align:center;

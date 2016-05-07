@@ -115,10 +115,20 @@ class Tool{
                     }
                 }
             }else{
-                $_object = mb_substr($_object, 0, $_length, $_encode);
+                return mb_substr($_object, 0, $_length, $_encode);
             }
         }
-        return $_object;
+    }
+
+
+    //调整date格式
+    static function formatDate($object){
+        if(is_array($object)){
+            foreach ($object as $value){
+                Tool::formatDate($value);
+            }
+        }
+        $object->date = date('m-d',strtotime($object->date));
     }
     
     

@@ -39,9 +39,13 @@ class DetailAction extends Action{
             $this->getNav($_content->nav);
             if(IS_CACHE){
                 $this->_tpl->assign('count','<script type="text/javascript">getContentCount();</script>');
+                $this->_tpl->assign('commentCount','<script type="text/javascript">getCommentCount();</script>');
             }else{
                 $this->_model->countContent();
                 $this->_tpl->assign('count',$this->_model->getOneContent()->count);
+                $comment = new CommentModel();
+                $comment->cid = $_GET['id'];
+                $this->_tpl->assign('commentCount',$comment->getCommentTotal());
             }
         }else{
             Tool::alertBack('非法操作');

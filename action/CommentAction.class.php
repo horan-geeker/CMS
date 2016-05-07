@@ -25,8 +25,20 @@ class CommentAction extends Action{
                 case 'show':
                     $this->showComment();
                     break;
+                case 'attitude':
+                    $this->attitude();
+                    break;
             }
         }
+    }
+
+
+    private function attitude(){
+        if(isset($_GET['id'])&&isset($_GET['cid'])&&isset($_GET['type'])){
+            $this->_model->id = $_GET['id'];
+            $this->_model->setAttitude($_GET['type']);
+        }
+        return Tool::alertLocation(null,"comment.php?action=show&cid={$_GET['cid']}");
     }
     
     
@@ -73,6 +85,13 @@ class CommentAction extends Action{
             }
             $this->_tpl->assign('cid',$this->_model->cid);
             $this->_tpl->assign('AllComment',$object);
+            if(IS_CACHE){
+                $this->_tpl->assign('commentCount','<script type="text/javascript">getCommentCount();</script>');
+            }else{
+                $comment = new CommentModel();
+                $comment->cid = $_GET['cid'];
+                $this->_tpl->assign('commentCount',$comment->getCommentTotal());
+            }
         }else{
             Tool::alertBack('非法操作');
         }

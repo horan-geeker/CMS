@@ -39,38 +39,18 @@
     </div>
     <div class="right">
 	<h2>本类推荐</h2>
-    	<ul class="list-info">
-    		<li><span>06-12</span><a href="#">习近平签署第四十三号主席令</a></li>
-    		<li><span>04-30</span><a href="#">李克强答问结束 记者:加油</a></li>
-    		<li><span>07-22</span><a href="#">印尼警方击毙两名中国籍武装分子</a></li>
-    		<li><span>02-11</span><a href="#">广东落马领导庭审自辩:女儿收钱坑爹</a></li>
-    		<li><span>03-07</span><a href="#">李肇星在印度出席会议因"台独"问题离席</a></li>
-    		<li><span>03-12</span><a href="#">目击者回应"女子被骂中国猪"</a></li>
-    		<li><span>01-01</span><a href="#">上海两千人为阿迪达斯新鞋连夜排队</a></li>
-    	</ul>
+		<ul class="list-info">
+			{foreach $NavRec(key,value)}
+				<li><span>{@value->date}</span><a href="detail.php?id={@value->id}">{@value->title}</a></li>
+			{/foreach}
+		</ul>
 	</div>
 	<div class="right">
-	<h2>本类热点</h2>
+	<h2>本类最新</h2>
     	<ul class="list-info">
-    		<li><span>06-12</span><a href="#">习近平签署第四十三号主席令</a></li>
-    		<li><span>04-30</span><a href="#">李克强答问结束 记者:加油</a></li>
-    		<li><span>07-22</span><a href="#">印尼警方击毙两名中国籍武装分子</a></li>
-    		<li><span>02-11</span><a href="#">广东落马领导庭审自辩:女儿收钱坑爹</a></li>
-    		<li><span>03-07</span><a href="#">李肇星在印度出席会议因"台独"问题离席</a></li>
-    		<li><span>03-12</span><a href="#">目击者回应"女子被骂中国猪"</a></li>
-    		<li><span>01-01</span><a href="#">上海两千人为阿迪达斯新鞋连夜排队</a></li>
-    	</ul>
-	</div>
-	<div class="right">
-	<h2>本类图文</h2>
-    	<ul class="list-info">
-    		<li><span>06-12</span><a href="#">习近平签署第四十三号主席令</a></li>
-    		<li><span>04-30</span><a href="#">李克强答问结束 记者:加油</a></li>
-    		<li><span>07-22</span><a href="#">印尼警方击毙两名中国籍武装分子</a></li>
-    		<li><span>02-11</span><a href="#">广东落马领导庭审自辩:女儿收钱坑爹</a></li>
-    		<li><span>03-07</span><a href="#">李肇星在印度出席会议因"台独"问题离席</a></li>
-    		<li><span>03-12</span><a href="#">目击者回应"女子被骂中国猪"</a></li>
-    		<li><span>01-01</span><a href="#">上海两千人为阿迪达斯新鞋连夜排队</a></li>
+    		{foreach $NavHot(key,value)}
+			<li><span>{@value->date}</span><a href="detail.php?id={@value->id}">{@value->title}</a></li>
+			{/foreach}
     	</ul>
 	</div>
 </div>

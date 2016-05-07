@@ -37,7 +37,24 @@ class ContentModel extends Model{
     public function __get($_key){
         return $this->$_key;
     }
-    
+
+
+    //获取10条当前nav下的文档列表,在首页显示
+    public function getNavContent(){
+        $sql = "SELECT
+                        * 
+                  FROM 
+                        cms_content 
+                 WHERE
+                        nav IN (SELECT id FROM cms_nav WHERE pid='$this->nav')
+              ORDER BY
+                        date DESC
+                 LIMIT
+                        0,10
+                ";
+        return parent::all($sql);
+    }
+
     
     //获取单一文档
     public function getOneContent(){
@@ -176,7 +193,92 @@ class ContentModel extends Model{
         $_sql = "DELETE FROM cms_content WHERE id='$this->id' LIMIT 1";
         return parent::adu($_sql);
     }
-    
+
+
+    //获取本月本类最新热点
+    public function getMonthNavHot(){
+        $sql = "SELECT 
+                        id,
+                        title,
+                        date
+                  FROM  
+                        cms_content
+                 WHERE
+                        nav IN ($this->nav)
+                ORDER BY
+                        date DESC 
+                        LIMIT 0,10";
+        return parent::all($sql);
+    }
+
+
+    //获取本月本类推荐
+    public function getMonthNavRec(){
+        $sql = "SELECT 
+                        id,
+                        title,
+                        date
+                  FROM  
+                        cms_content
+                 WHERE
+                        attr LIKE '%推荐%'
+                    AND 
+                        nav IN ($this->nav)
+                ORDER BY
+                        date DESC 
+                        LIMIT 0,10";
+        return parent::all($sql);
+    }
+
+
+    //获取最新的8条推荐文档列表
+    public function getNewList(){
+        $sql = "SELECT * FROM cms_content ORDER BY date DESC LIMIT 0,8";
+        return parent::all($sql);
+    }
+
+
+    //获取最新的一条头条
+    public function getOneTop(){
+        $sql = "SELECT * FROM cms_content WHERE attr LIKE '%头条%' ORDER BY date DESC LIMIT 1";
+        return parent::one($sql);
+    }
+
+
+    //获取最新的2-5条头条
+    public function getOtherTop(){
+        $sql = "SELECT * FROM cms_content WHERE attr LIKE '%头条%' ORDER BY date DESC LIMIT 1,4";
+        return parent::all($sql);
+    }
+
+
+    //获取最新的7条推荐文档列表
+    public function getNewRecList(){
+        $sql = "SELECT * FROM cms_content WHERE attr LIKE '%推荐%' ORDER BY date DESC LIMIT 0,7";
+        return parent::all($sql);
+    }
+
+
+    //获取点击量最多的热点
+    public function getMonthHotList(){
+        $sql = "SELECT * FROM cms_content ORDER BY count DESC LIMIT 0,6";
+        return parent::all($sql);
+    }
+
+
+    //获取评论量最多的热点
+    public function getMonthHotComment(){
+        $sql = "SELECT ct.* FROM cms_content ct ORDER BY (SELECT COUNT(id) FROM cms_comment c WHERE c.cid=ct.id) DESC LIMIT 
+        0,6";
+        return parent::all($sql);
+    }
+
+
+    //获取最新的图文资讯
+    public function getPicList(){
+        $sql = "SELECT id,title,thumb FROM cms_content WHERE thumb<>'' ORDER BY date DESC LIMIT 0,4";
+        return parent::all($sql);
+    }
     
     //累计访问量
     public function countContent(){

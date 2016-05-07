@@ -52,7 +52,7 @@ class Parser{
     }
     
     //解析foreach
-    private function parFor(){
+    private function parForeach(){
         $_pattern = '/\{foreach\s+\$([\w]+)\(([\w]+),([\w]+)\)\}/';
         $_patternVar = '/\{@([\w]+)([\w\-\>\+]*)\}/';
         $_patternEnd = '/\{\/foreach\}/';
@@ -65,6 +65,25 @@ class Parser{
                 }
             }else{
                 exit('foreach语句没有结束');
+            }
+        }
+    }
+
+
+    //解析for语句用于内嵌循环
+    private function parfor(){
+        $_pattern = '/\{for\s+\@([\w\-\>]+)\(([\w]+),([\w]+)\)\}/';
+        $_patternEnd = '/\{\/for\}/';
+        $_patternVar = '/\{@([\w]+)([\w\-\>\+]*)\}/';
+        if(preg_match($_pattern, $this->_tpl)){
+            if(preg_match($_patternEnd, $this->_tpl)){
+                $this->_tpl = preg_replace($_pattern, "<?php foreach(\$$1 as \$$2=>\$$3){?>", $this->_tpl);
+                $this->_tpl = preg_replace($_patternEnd, "<?php }?>", $this->_tpl);
+                if(preg_match($_patternVar, $this->_tpl)){
+                    $this->_tpl = preg_replace($_patternVar, "<?php echo $$1$2;?>", $this->_tpl);
+                }
+            }else{
+                exit('for语句没有结束');
             }
         }
     }
@@ -106,6 +125,7 @@ class Parser{
         $this->parVal();
         $this->parIf();
         $this->parCommon();
+        $this->parForeach();
         $this->parFor();
         $this->parInclude();
         $this->parConfig();

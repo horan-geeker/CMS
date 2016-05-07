@@ -47,13 +47,10 @@ class CommentModel extends Model{
         return parent::adu($_sql);
     }
 
-    //带limit的分页显示
+    //带limit的分页显示,且是审核通过的
     public function getComment() {
         $_sql = "SELECT 
-											c.user,
-											c.manner,
-											c.content,
-											c.date,
+                                            c.*,
 											u.face 
 								FROM 
 											cms_comment c
@@ -63,6 +60,8 @@ class CommentModel extends Model{
 											c.user=u.user
 							WHERE 
 											c.cid='$this->cid'
+                              AND           
+                                            c.state=1
 						  ORDER BY
 						                c.date DESC 
 										$this->limit";
@@ -79,6 +78,17 @@ class CommentModel extends Model{
     public function getCommentTotal(){
         $_sql = "SELECT COUNT(id) FROM cms_comment WHERE cid='$this->cid' $this->limit";
         return parent::total($_sql);
+    }
+
+
+    public function setAttitude($attitude){
+        if($attitude=='sustain'){
+            $sql = "UPDATE cms_comment SET sustain=sustain+1 WHERE id='$this->id' LIMIT 1";
+        }
+        if($attitude=='oppose'){
+            $sql = "UPDATE cms_comment SET oppose=oppose+1 WHERE id='$this->id' LIMIT 1";
+        }
+        return parent::adu($sql);
     }
 }
 

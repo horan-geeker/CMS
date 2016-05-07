@@ -19,7 +19,7 @@
 	<div class="d3">{$content}</div>
 	<div class="tag">TAG标签:{$tag}</div>
 	<div class="comment">
-		<h2><a href="comment.php?action=show&cid={$id}" target="_blank">已有<span>220</span>人参与评论</a>最新评论</h2>
+		<h2><a href="comment.php?action=show&cid={$id}" target="_blank">已有<span>{$commentCount}</span>人参与评论</a>最新评论</h2>
 	<form method="post" action="comment.php?cid={$id}&action=comment" name="comment">
 		<p class="attitude">你对本文的看法:<input type="radio" name="manner" value="1" />支持
 						 <input type="radio" name="manner" value="0" />中立

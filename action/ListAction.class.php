@@ -40,8 +40,8 @@ class ListAction extends Action{
             
             //对简介的缩略
             if($_object){
-                $_object = Tool::subStr($_object, 'info', 120, 'utf-8');
-                $_object = Tool::subStr($_object, 'title', 30, 'utf-8');
+                Tool::subStr($_object, 'info', 120, 'utf-8');
+                Tool::subStr($_object, 'title', 30, 'utf-8');
                 if(IS_CACHE){
                     foreach ($_object as $_value){
                         $_value->count = '<script type="text/javascript"">getContentCount();</script>';
@@ -49,7 +49,13 @@ class ListAction extends Action{
                 }
             }
             $this->_tpl->assign('allListContent',$_object);
-            
+            $_object = $this->_model->getMonthNavHot();
+            Tool::subStr($_object,'title',20,'utf-8');
+            $this->_tpl->assign('NavHot',$_object);
+            $_object = $this->_model->getMonthNavRec();
+            Tool::subStr($_object,'title',20,'utf-8');
+            $this->_tpl->assign('NavRec',$_object);
+
         }else{
             Tool::alertBack('警告！非法操作');
         }

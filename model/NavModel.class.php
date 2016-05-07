@@ -25,6 +25,13 @@ class NavModel extends Model{
     public function __get($_key){
         return $this->$_key;
     }
+
+
+    //显示主页四个主导航
+    public function getFourNav(){
+        $sql = "SELECT * FROM cms_nav WHERE pid=0 ORDER BY sort ASC LIMIT 0,4";
+        return parent::all($sql);
+    }
     
     
     //前台显示主导航

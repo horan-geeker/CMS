@@ -11,6 +11,16 @@ window.onload=function(){
 		if(title.innerHTML == a[i].text)
 			a[i].setAttribute('class','selected');
 	}
+
+	var all=document.getElementById("all");
+	var checkboxs=$('input').toArray();
+	all.onclick=function(){
+		for(var i=0;i<checkboxs.length;i++){
+			if(checkboxs[i].type=='checkbox'){
+				checkboxs[i].checked=1;
+			}
+		}
+	};
 };
 
 
@@ -47,4 +57,4 @@ function checkAddForm(){
 		return false;
 	}
 	return true;
-};
+}

@@ -55,6 +55,15 @@ class Cache{
             document.write('$_count');
             };
         ";
+
+        $comment = new CommentModel();
+        $comment->cid = $_GET['id'];
+        $count = $comment->getCommentTotal();
+        echo "
+            function getCommentCount(){
+            document.write('$count');
+        };
+    ";
     }
     
     
@@ -116,6 +125,8 @@ class Cache{
             }
         ";
     }
+
+
 }
 
 
