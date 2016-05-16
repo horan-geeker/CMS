@@ -8,15 +8,15 @@ sidebar[1]={
     'pic':'images/sidebar1.png',
     'link':'http://www.weibo.com',
 };
-text[2]={
+sidebar[2]={
     'title':'腾讯开始团购系统',
     'pic':'images/sidebar2.png',
     'link':'http://www.qq.com',
 };
-text[3]={
+sidebar[3]={
     'title':'百度开始进军文献',
     'pic':'images/sidebar3.png',
     'link':'http://www.baidu.com',
 };
 var i = Math.floor(Math.random()*3+1);
-document.write('<a href="'+sidebar[i].link+'"><img src="'+sidebar[i].src+'"/>'+sidebar[i].title+'</a>');
+document.write('<a href="'+sidebar[i].link+'"><img src="'+sidebar[i].pic+'"/></a>');
