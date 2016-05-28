@@ -32,6 +32,15 @@ class VoteModel extends Model
     }
 
 
+    public function setVoteCount(){
+        $sql = "UPDATE cms_vote SET 
+                                        vote_count=vote_count+1
+                                 WHERE 
+                                        id='$this->id' 
+                                    LIMIT 1";
+        return parent::adu($sql);
+    }
+
     //获取投票主题总记录
     public function getVoteTotal()
     {
@@ -60,6 +69,22 @@ class VoteModel extends Model
         return parent::one($_sql);
     }
 
+    /**
+     * 得到前台的投票
+     * @return string
+     */
+    public function getOneFrontVote()
+    {
+        $_sql = "SELECT 
+                            *
+                        FROM 
+                            cms_vote 
+                        WHERE 
+                            state=1
+                        LIMIT 1
+        ";
+        return parent::one($_sql);
+    }
 
     //查询所有等级
     public function getAllVote()

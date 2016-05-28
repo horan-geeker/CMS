@@ -19,6 +19,9 @@ class IndexAction extends Action{
     
     //执行方法
     public function _action(){
+        if(isset($_POST['send'])){
+            $this->postVote();
+        }
         $this->login();
         $this->latestUser();
         $this->showList();
@@ -91,6 +94,7 @@ class IndexAction extends Action{
             $value->list = $navContent;
         }
         $this->_tpl->assign('FourNav',$object);
+        $this->getVote();
     }
 
 
@@ -106,6 +110,20 @@ class IndexAction extends Action{
             $this->_tpl->assign('cache',true);
             $this->_tpl->assign('member','<script type="text/javascript">getLogin();</script>');
         }
+    }
+
+    private function getVote(){
+        $vote = new VoteModel();
+        $frontVote = $vote->getOneFrontVote();
+        $this->_tpl->assign('frontVoteTitle',$frontVote->title);
+        $vote->vid = $frontVote->id;
+        $this->_tpl->assign('frontVoteItems',$vote->getAllChildVote());
+    }
+
+    private function postVote(){
+        $vote = new VoteModel();
+        $vote->id = $_POST['vote'];
+        $vote->setVoteCount();
     }
 }
 

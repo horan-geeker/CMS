@@ -176,4 +176,7 @@
 {/if}
 
 </body>
+<script>
+
+</script>
 </html>

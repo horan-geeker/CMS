@@ -55,39 +55,39 @@ class VoteAction extends Action
         parent::page($this->_model->getVoteTotal());
         $this->_tpl->assign('title', '投票主题');
         $this->_tpl->assign('show', true);
-        $this->_tpl->assign('votes',$this->_model->getAllVote());
+        $this->_tpl->assign('votes', $this->_model->getAllVote());
     }
 
     private function showChild()
     {
-        if(isset($_GET['vid'])){
+        if (isset($_GET['vid'])) {
             $this->_model->vid = $_GET['vid'];
             parent::page($this->_model->getChildVoteTotal());
             $this->_tpl->assign('title', '投票项目列表');
             $this->_tpl->assign('vid', $this->_model->vid);
             $this->_tpl->assign('showChild', true);
-            $this->_tpl->assign('childVotes',$this->_model->getAllChildVote());
+            $this->_tpl->assign('childVotes', $this->_model->getAllChildVote());
         }
     }
 
     private function add()
     {
-        if(isset($_POST['send'])){
-            if(Validate::checkNull($_POST['title'])){
+        if (isset($_POST['send'])) {
+            if (Validate::checkNull($_POST['title'])) {
                 Tool::alertBack('名称不得为空');
             }
-            if(Validate::checkLength($_POST['title'], 2,'min')){
+            if (Validate::checkLength($_POST['title'], 2, 'min')) {
                 Tool::alertBack('名称不得小于2位');
             }
-            if(Validate::checkLength($_POST['title'], 20,'max')){
+            if (Validate::checkLength($_POST['title'], 20, 'max')) {
                 Tool::alertBack('名称不得大于20位');
             }
-            if(Validate::checkLength($_POST['info'], 200,'max')){
+            if (Validate::checkLength($_POST['info'], 200, 'max')) {
                 Tool::alertBack('描述不得大于200位');
             }
             $this->_model->title = $_POST['title'];
             $this->_model->info = $_POST['info'];
-            $this->_model->addVote()?Tool::alertLocation(null,'?action=show'):Tool::alertBack('新增失败');
+            $this->_model->addVote() ? Tool::alertLocation(null, '?action=show') : Tool::alertBack('新增失败');
         }
 
         $this->_tpl->assign('add', true);
@@ -96,9 +96,9 @@ class VoteAction extends Action
 
     private function addChild()
     {
-        if(isset($_GET['id'])){
+        if (isset($_GET['id'])) {
             $this->_model->id = $_GET['id'];
-            if(!$vote = $this->_model->getOneVote()){
+            if (!$vote = $this->_model->getOneVote()) {
                 Tool::alertBack('不存在此主题');
             }
             $this->_tpl->assign('addChild', true);
@@ -106,26 +106,26 @@ class VoteAction extends Action
             $this->_tpl->assign('title', '新增投票主题');
             $this->_tpl->assign('titleParent', $vote->title);
         }
-        if(isset($_POST['send'])){
-            if(Validate::checkNull($_POST['title'])){
+        if (isset($_POST['send'])) {
+            if (Validate::checkNull($_POST['title'])) {
                 Tool::alertBack('名称不得为空');
             }
-            if(Validate::checkNull($_POST['id'])){
+            if (Validate::checkNull($_POST['id'])) {
                 Tool::alertBack('id非法');
             }
-            if(Validate::checkLength($_POST['title'], 2,'min')){
+            if (Validate::checkLength($_POST['title'], 2, 'min')) {
                 Tool::alertBack('名称不得小于2位');
             }
-            if(Validate::checkLength($_POST['title'], 20,'max')){
+            if (Validate::checkLength($_POST['title'], 20, 'max')) {
                 Tool::alertBack('名称不得大于20位');
             }
-            if(Validate::checkLength($_POST['info'], 200,'max')){
+            if (Validate::checkLength($_POST['info'], 200, 'max')) {
                 Tool::alertBack('描述不得大于200位');
             }
             $this->_model->vid = $_POST['id'];
             $this->_model->title = $_POST['title'];
             $this->_model->info = $_POST['info'];
-            $this->_model->addVoteChild()?Tool::alertLocation(null,'?action=show'):Tool::alertBack('新增失败');
+            $this->_model->addVoteChild() ? Tool::alertLocation(null, '?action=show') : Tool::alertBack('新增失败');
         }
 
 
@@ -133,15 +133,28 @@ class VoteAction extends Action
 
     private function update()
     {
+        if ($_POST['send']){
+            $this->_model->id = $_POST['id'];
+            $this->_model->title = $_POST['title'];
+            $this->_model->info = $_POST['info'];
+            $this->_model->updateVote() ? Tool::alertLocation(null, '?action=show') : Tool::alertBack('失败');
+
+        }
+        $this->_model->id = $_GET['id'];
+        $vote = $this->_model->getOneVote();
+        $this->_tpl->assign('update', true);
+        $this->_tpl->assign('id', $_GET['id']);
+        $this->_tpl->assign('title', $vote->title);
+        $this->_tpl->assign('info', $vote->info);
     }
 
 
     private function del()
     {
-        if($this->_model->id = $_GET['id']){
+        if ($this->_model->id = $_GET['id']) {
             $this->_model->delVote();
         }
-        Tool::alertLocation(null,PREV_URL);
+        Tool::alertLocation(null, PREV_URL);
     }
 }
 

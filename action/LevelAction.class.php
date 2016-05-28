@@ -76,6 +76,7 @@ class LevelAction extends Action{
     
     private function update() {
         if(isset($_POST['send'])){
+
             if(Validate::checkNull($_POST['level_name'])){
                 Tool::alertBack('等级名称不得为空');
             }
@@ -94,6 +95,10 @@ class LevelAction extends Action{
             $this->_model->updateLevel()?Tool::alertLocation('修改成功', $_POST['prev_url']):Tool::alertBack('修改失败');
         }
         if(isset($_GET['id'])){
+
+            $permission = new PermissionModel();
+            $this->_tpl->assign('allPermission',$permission->getAllPermission());
+            
             $this->_model->id=$_GET['id'];
             $_level = $this->_model->getOneLevel();
             is_object($_level)?true:Tool::alertBack('您查询的id有误！');

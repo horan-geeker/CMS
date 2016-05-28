@@ -15,5 +15,10 @@
 　管理首页 >> 后台首页
 </div>
 
+<table class="tb" cellspacing="0">
+    <tr><th>快捷操作</th></tr>
+    <tr><td><a href="main.php?action=delCache" ><input type="button" value="清理缓存"></a>(缓存目录现有{$cacheNum}个文件)</td></tr>
+</table>
+
 </body>
 </html>

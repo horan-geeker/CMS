@@ -79,11 +79,11 @@
 <input type="hidden" value="{$id}" name="id" />
 <input type="hidden" value="{$prev_url}" name="prev_url" />
 <table cellspacing="0" class="tb left">
-	<tr><td>等级名称：<input type="text" name="vote_name" value="{$vote_name}" class="text" /></td></tr>
-	<tr><td><span class="vote_info_text">等级描述：</span><textarea name="vote_info">{$vote_info}</textarea></td></tr>
+	<tr><td>投票名称：<input type="text" name="title" value="{$title}" class="text" /></td></tr>
+	<tr><td><span class="vote_info_text">投票描述：</span><textarea name="info">{$info}</textarea></td></tr>
 	<tr>
     	<td>
-    		<input type="submit" name="send" value="修改等级" class="submit" onclick="return checkUpdateForm();" /> [ <a href="{$prev_url}">返回列表</a> ] 
+    		<input type="submit" name="send" value="修改" class="submit" onclick="return checkUpdateForm();" /> [ <a href="{$prev_url}">返回列表</a> ]
 		</td>
 	</tr>
 </table>

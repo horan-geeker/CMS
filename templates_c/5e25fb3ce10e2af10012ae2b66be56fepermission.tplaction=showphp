@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>level</title>
+<link rel="stylesheet" type="text/css" href="../style/admin.css" />
+<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js" type="text/javascript"></script>
+<script type="text/javascript" src="../js/admin_level.js"></script>
+</head>
+<body id="main">
+
+<div class="map">
+<br/>
+　管理首页　>>　权限管理　>>　<strong id="title"><?php echo $this->_vars['title'];?></strong>
+</div>
+
+<ul>
+	<li><a href="permission.php?action=show">权限列表</a></li>
+	<li><a href="permission.php?action=add">新增权限</a></li>
+	<?php if($this->_vars['update']){?>
+	<li><a href="permission.php?action=update&id=<?php echo $this->_vars['id'];?>">修改权限</a></li>
+	<?php }?>
+</ul>
+
+
+
+<?php if($this->_vars['show']){?>
+<table class="tb" cellspacing="0">
+	<tr><th>编号</th><th>名称</th><th>权限描述</th><th>操作</th></tr>
+	<?php if($this->_vars['allPermission']){?>
+	<?php foreach($this->_vars['allPermission'] as $key=>$value){?>
+	<tr>
+		<td><script type="text/javascript">document.write(<?php echo $key+1;?>+<?php echo $this->_vars['num'];?>);</script></td>
+		<td><?php echo $value->name;?></td>
+		<td><?php echo $value->info;?></td>
+		<td><a href="permission.php?action=update&id=<?php echo $value->id;?>">修改</a> |
+		 <a href="permission.php?action=delete&id=<?php echo $value->id;?>" onclick="return confirm('确定要删除吗？')">删除</a></td>
+	</tr>
+	<?php }?>
+	<?php }else{?>
+	<tr><td colspan="4">对不起，没有任何数据</td></tr>
+	<?php }?>
+</table>
+<div id="page"><?php echo $this->_vars['page'];?></div>
+<?php }?>
+
+
+<?php if($this->_vars['update']){?>
+<form method="post" action="?action=update" name="update">
+<input type="hidden" value="<?php echo $this->_vars['id'];?>" name="id" />
+<input type="hidden" value="<?php echo $this->_vars['prev_url'];?>" name="prev_url" />
+<table cellspacing="0" class="tb left">
+	<tr><td>等级名称：<input type="text" name="level_name" value="<?php echo $this->_vars['level_name'];?>" class="text" /></td></tr>	
+	<tr><td><span class="level_info_text">等级描述：</span><textarea name="level_info"><?php echo $this->_vars['level_info'];?></textarea></td></tr>	
+	<tr>
+    	<td>
+    		<input type="submit" name="send" value="修改等级" class="submit" onclick="return checkUpdateForm();" /> [ <a href="<?php echo $this->_vars['prev_url'];?>">返回列表</a> ] 
+		</td>
+	</tr>
+</table>
+</form>
+<?php }?>
+
+
+<?php if($this->_vars['add']){?>
+<form method="post" action="?action=add" name="add">
+<table cellspacing="0" class="tb left">
+	<tr><td>权限名称：<input type="text" name="name" class="text" /></td></tr>
+	<tr><td><span class="level_info">权限描述：</span><textarea name="info"></textarea></td></tr>
+	<tr>
+    	<td>
+    		<input type="submit" name="send" value="新增权限" class="submit" onclick="return checkAddForm();" /> [ <a
+					href="level.php?action=show">返回列表</a> ]
+		</td>
+	</tr>
+</table>
+</form>
+<?php }?>
+
+
+<?php if($this->_vars['delete']){?>
+删除
+<?php }?>
+
+</body>
+</html>

@@ -116,12 +116,11 @@
     </div>
     <div class="vote">
         <h2>调查评论</h2>
-        <h3>请问您是怎么知道本站的</h3>
-        <form>
-            <label><input type="radio" name="vote"/>门户网站的搜素引擎</label>
-            <label><input type="radio" name="vote"/>Google百度搜素</label>
-            <label><input type="radio" name="vote"/>别的网站的链接</label>
-            <label><input type="radio" name="vote"/>朋友介绍或电视广告</label>
+        <h3>{$frontVoteTitle}</h3>
+        <form action="index.php" method="post">
+            {foreach $frontVoteItems(key,value)}
+            <label><input type="radio" name="vote" value="{@value->id}"/>{@value->title}</label>
+            {/foreach}
             <p>
                 <input type="submit" value="投票" name="send"/>
                 <input type="button" value="查看" name=""/>
