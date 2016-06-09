@@ -1,2 +1,2 @@
-.*
-^.gitinore
+*
+!.gitinore
