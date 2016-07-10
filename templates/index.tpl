@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="style/index.css"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title><!--{webname}--></title>
+
     <script type="text/javascript" src="js/reg.js"></script>
     <script type="text/javascript" src="config/static.php?type=index"></script>
 </head>
