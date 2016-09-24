@@ -44,7 +44,7 @@ class FileUpload{
         //拿上上一级的目录名，也就是上一级的目录
         $_dir = dirname(dirname($_path));
         //判断是不是根目录，转义反斜杠
-        if($_dir == '\\')$_dir='/';
+        //if($_dir == '\\')$_dir='/';
         $this->linkpath = $_dir.$this->linkpath;
         return $this->linkpath;
     }
