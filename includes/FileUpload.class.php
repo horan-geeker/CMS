@@ -40,12 +40,12 @@ class FileUpload{
     
     //返回路径，对外接口
     public function getPath(){
-        $_path = $_SERVER['SCRIPT_NAME'];
+        //$_path = $_SERVER['SCRIPT_NAME'];
         //拿上上一级的目录名，也就是上一级的目录
-        $_dir = dirname(dirname($_path));
+        //$_dir = dirname(dirname($_path));
         //判断是不是根目录，转义反斜杠
         //if($_dir == '\\')$_dir='/';
-        $this->linkpath = $_dir.$this->linkpath;
+        //$this->linkpath = $_dir.$this->linkpath;
         return $this->linkpath;
     }
     
